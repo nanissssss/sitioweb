@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Página Web</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-image: url('C:\\Users\\gisse\\OneDrive\\Arquitectura\\PaginaWeb\\fond03.jpg'); /* Nueva ruta de tu imagen de fondo */
+      background-size: cover;
+      background-position: center;
+      font-family: Arial, sans-serif;
+      color: black; /* Color del texto */
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    header {
+      text-align: center;
+      padding: 50px;
+      background-color: rgba(255, 255, 255, 0.7); /* Fondo semitransparente para hacer el texto más legible */
+    }
+
+    nav {
+      background-color: #333;
+      overflow: hidden;
+    }
+
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+    }
+
+    nav li {
+      margin: 0 15px;
+    }
+
+    nav a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    nav a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+
+    section {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+      color: white; /* Color del texto */
+    }
+
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 10px;
+    }
+
+    /* Estilo para el índice */
+    #indice {
+      background-color: rgba(255, 255, 255, 0.7);
+      padding: 10px;
+      margin: 20px;
+      border-radius: 8px;
+    }
+
+    #indice a {
+      display: block;
+      color: #333;
+      text-decoration: none;
+      margin-bottom: 8px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Arquitectura De Computadoras</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#inicio">Inicio</a></li>
+      <li><a href="Unidad1.html">Unidad 1</a></li>
+      <li><a href="Unidad2.html">Unidad 2</a></li>
+      <li><a href="Unidad3.html">Unidad 3</a></li>
+      <li><a href="Unidad4.html">Unidad 4</a></li>
+    </ul>
+  </nav>
+
+  <section id="inicio">
+    <h2>Arquitectura de computadoras: ¿Qué son? ¿Cómo funcionan?</h2>
+    <p>La arquitectura de computadoras es la organización lógica de los equipos informáticos</p>
+  </section>
+
+  <section id="Unidad1">
+    <h2>Unidad 1</h2>
+    <p>1.1 Arquitectura de Computadoras
+      <p>1.2.1 Unidad Central de Procesamiento</p>  
+        <p>1.2.2 Memoria</p>
+        <p>1.2.3 Dispositivos Entrada Salida</p>
+        <p>1.2.4 Buses</p>
+        <p>1.2.5 Direccionamiento</p>
+        <p>1.2.6 Temporizacion</p>
+    </p>
+  </section>
+
+  <section id="Unidad2">
+    <h2>Unidad 2</h2>
+    <p>Estructura y Funcionamiento de la CPU</p>
+    <p>2.1 Organizacion del procesador</p>
+    <p>2.2 Estructura de Regustros</p>
+    <p>2.2.1 Registros Visibles Para el Usuario</p>
+    <p>2.2.2 Registros de Control y Estados</p>
+    <p>2.2.3 Ejemplos de Organizacion de Registros de CPU Reales</p>
+    <p>2.3 El ciclo de instruccion</p>
+    <p>2.3.1 Ciclo Fetch-Decode-Excute</p>
+    <p>2.3.3 Segmentacion de Instrucciones</p>
+    <p>2.3.3 Conjunto de Insrucciones: Caracteristicas y Funciones</p>
+    <p> 2.4 Casos de Estudio Reales</p>
+  </section>
+
+  <section id="Unidad3">
+    <h2>Unidad 3</h2>
+    <p>Seleccion de Componentes Para Ensamble de Equipo de Computo</p>
+    <p>3.1 Chipset</p>
+    <p>3.1.1 Unidad de Control de Procesamiento</p>
+    <p>3.1.2 Controladores de Bus</p>
+    <p>3.1.3 Modulos de Entrada/Salida</p>
+    <p>3.1.4 Controlador de Interruptores</p>
+    <p>3.1.5 Controlador de Acceso Directo a Memoria (DMA)</p>
+    <p>3.1.6 Circuitos de Temporizacion</p>
+    <p>3.1.7 Circuitos de Control</p>
+    <p>3.1.8 Controladores de Video</p>
+    <p> 3.2 Aplicaciones</p>
+    <p>3.2.1 Entrada / Salida</p>
+    <p>3.2.2 Almacenamiento</p>
+    <p>3.2.3 Fuentes de Alimentacion</p>
+    <p>3.3 Ambientes de Servicio</p>
+    <p>3.3.1 Negocios</p>
+    <p> 3.3.2 Industria</p>
+    <p>3.3.3 Comercio Electronico</p>
+  </section>
+
+  <section id="Unidad4">
+    <h2>Unidad 4</h2>
+    <p>Aspectos Basicos de La Computacion Paralela</p>
+    <p>4.1 Aspectos Basicos de la Computacion Paralela</p>
+    <p>4.2 Tipos De Computacion Paralela</p>
+    <p>4.2.1 Clasificacion</p>
+    <p>4.2.2 Arquitectura de Computadoras Secuenciales</p>
+    <p>4.2.3 Organizacion de Direcciones de Memoria</p>
+    <p>4.3 Sistemas de Memoria Compartida</p>
+    <p>4.3.1 Redes de Interconexion Dinamicas o Indirectas</p>
+    <p>4.3.1.1 Redes de Medio Compartido</p>
+    <p>4.3.1.2 Redes Conmutadas</p>
+    <p> 4.4 Sistemas de Memoria Distribuida: Multiprocesadores</p>
+    <p>4.4.1 Red de interconexion Estatica</p>
+    <p>4.5 Casos de Estudio</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2023 Mi Página Web</p>
+  </footer>
+</body>
+</html>
